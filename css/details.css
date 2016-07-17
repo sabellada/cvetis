@@ -1,0 +1,23 @@
+#view{
+  margin: 0 auto;
+  float: none;
+  vertical-align: middle;
+}
+div.modal-footer{
+  margin: 0 auto;
+  float: none;
+  bottom: 0;
+  vertical-align: middle;
+  padding: 10px !important;
+  height: auto !important;
+  position: fixed !important;
+}
+.modal{
+  height: auto !important;
+}
+div.modal-content{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  height: 81.5% !important;
+  overflow: auto;
+}

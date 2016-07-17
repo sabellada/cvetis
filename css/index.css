@@ -1,0 +1,85 @@
+p, h4#title, h5#title{
+  line-height: 1.25 ;
+}
+#index-banner, .caption{
+width: 100%;
+height: 100%;
+}
+.parallax-container,
+div#index-banner.parallax-container{
+  height: 300px !important; 
+  min-height: 300px;
+  background-color: rgba(0,0,0,0.5);
+}
+.button-collapse, 
+.dropdown-content li > a, 
+.dropdown-content li > span{
+  color: #EF5350;
+}
+.brown-text {
+  color: #c62828 !important;
+}
+#features.row, 
+#services.row, 
+#developers.row{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav{
+  border-bottom: 3px solid #f44336;
+}
+div.modal{
+    overflow: hidden; 
+    min-height: 85%;
+    width: 65%;
+}
+.modal.modal-fixed-footer{
+  height: 90%;
+}
+.form-desc{
+  display: flex;
+  padding: 30px;
+}
+.modal-content{
+  max-height: 90%;
+}
+#form-img{
+  width: 95%;
+}
+#services.row{
+  margin: 0;
+}
+
+#tabhead.col.s12{
+  padding: 0px;
+}
+.modal .modal-content{
+  padding-top: 10px;
+}
+#dropdown-dogreg.dropdown-content {
+  min-width: 200px; /* Changed this to accomodate content width */
+  max-height: auto;
+  margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+  overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+}
+div.input-field{
+  margin-top: 30px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255,0,0,0.4); 
+}
+#details-dogreg.col, #fillup-dogreg.col,
+#details-arv.col, #fill-up.col,
+#details-postmeatest.col, #fillup-postmeatest.col{
+  padding: 0;  
+  background: white;
+}
+.dropdown-button.btn{
+  width: 100%;
+}
