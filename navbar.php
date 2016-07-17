@@ -117,12 +117,12 @@ ul#stats.dropdown-content{
           </div>
 
           <div class="input-field col m6">
-            <input id="contact_no" name="contact_no" name="contact_no" type="text" class="validate">
+            <input id="contact_no" name="contact_no" id="contact_no" type="text" class="validate">
             <label for="contact_no">Contact Number</label>
           </div>
 
           <div class="input-field col m12">
-            <input id="password" name="password" name="password" type="text" class="validate">
+            <input id="password" name="password" id="password" type="text" class="validate">
             <label for="password">Password</label>
           </div>
 
@@ -131,7 +131,7 @@ ul#stats.dropdown-content{
               <div class="section">
                 <h5>Veterinary Services</h5>
                 <p>
-                  <input type="checkbox" name="dogreg" name="dogreg" value="dogreg" />
+                  <input type="checkbox" name="dogreg" id="dogreg" value="dogreg" />
                   <label for="dogreg">Dog Registry</label>
                 </p>
               </div>
@@ -140,10 +140,10 @@ ul#stats.dropdown-content{
               <div class="section">
                 <h5>Livestock Services</h5>
                 <p>
-                  <input type="checkbox" name="pslr" name="pslr" value="pslr"/>
+                  <input type="checkbox" name="pslr" id="pslr" value="pslr"/>
                   <label for="pslr">Permit to Slaughter Large Ruminants</label>
 
-                  <input type="checkbox" name="cs" name="cs" value="cs" />
+                  <input type="checkbox" name="cs" id="cs" value="cs" />
                   <label for="cs">Condemnation Slip</label>
                 </p>
               </div>
@@ -152,27 +152,27 @@ ul#stats.dropdown-content{
               <div class="section">
                 <h5>Meat Inspection Services</h5>
                 <p>
-                  <input type="checkbox" name="dair-r" id="dair-r" value="dair-r" />
+                  <input type="checkbox" value="dair-r" id="dair-r" name="avservice" value="dair-r" />
                   <label for="dair-r">Daily Animal Inspection Report (Ruminants)</label>
 
-                  <input type="checkbox" name="dair-s" id="dair-s" value="dair-s" />
+                  <input type="checkbox" value="dair-s" id="dair-s" name="avservice" value="dair-s" />
                   <label for="dair-s">Daily Animal Inspection Report (Ruminants)</label>
 
-                  <input type="checkbox" name="dmir-r" id="dmir-r" value="dmir-r" />
+                  <input type="checkbox" value="dmir-r" id="dmir-r" name="avservice" value="dmir-r" />
                   <label for="dmir-r">Daily Meat Inspection Report (Ruminants)</label>
 
-                  <input type="checkbox" name="dmir-s" name="dmir-s" value="dmir-s" />
+                  <input type="checkbox" value="dmir-s" id="dmir-s" name="avservice" value="dmir-s" />
                   <label for="dmir-s">Daily Meat Inspection Report (Ruminants)</label>
 
-                  <input type="checkbox" name="mmp-cert" name="mmp-cert" value="mmp-cert" />
+                  <input type="checkbox" value="mmp-cert" id="mmp-cert" name="avservice" value="mmp-cert" />
                   <label for="mmp-cert">Meat and Meat Products Inspection Certificate</label>
 
-                  <input type="checkbox" name="postmeatest" name="postmeatest" value="postmeatest" />
+                  <input type="checkbox" value="postmeatest" id="postmeatest" name="avservice" value="postmeatest" />
                   <label for="postmeatest">Post Meat Establishment Report</label>
                 </p>
               </div>
             </div>
-        <div class="modal-footer">
+        <div class="modal-footer" id="view">
           <input class="waves-effect waves-light btn red" type="reset" value="Reset Form">
           <input class="waves-effect waves-light btn red" type="submit" name="submitok" value="Submit">
         </div>
@@ -181,3 +181,13 @@ ul#stats.dropdown-content{
     </div>
   </div>
 </div>   
+<?php
+if(isset($_POST['submitok'])){//to run PHP script on submit
+if(!empty($_POST['avservice'])){
+// Loop to store and display values of individual checked checkbox.
+foreach($_POST['avservice'] as $selected){
+echo $selected."</br>";
+}
+}
+}
+?>

@@ -37,12 +37,14 @@
           <div class="data-table-wrap">
             <table class="striped">
               <thead>
+                <!--
                 <tr>
                   <th colspan="8"></th>
                   <th class="dmir" colspan="11">B1. Ante Mortem Inspection Report</th>
                   <th class="dmir" colspan="12">B2. Post Mortem Inspection Report</th>
                   <th class="dmir" colspan="3">B3. Daily Destination of Meat</th>
                 </tr>
+                -->
                 <tr>
                   <th rowspan="4">#</th>
                   <th rowspan="4">Month</th>
