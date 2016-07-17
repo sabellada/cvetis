@@ -7,15 +7,19 @@
         <div id="generate-arv-form" class="col s12">
           <form class="col s12">
             <div class="input-field col m6">
+              <!--
               <?php
-                include("province.php");
+                //include("province.php");
               ?>
+              -->
               <label>Province</label>
             </div>
             <div class="input-field col m6">
+              <!--
               <?php
-                include("municipality.php");
+                //include("municipality.php");
               ?>
+              -->
               <label>Province</label>
             </div>
             <div class="input-field col m6">

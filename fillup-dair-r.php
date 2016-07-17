@@ -98,14 +98,18 @@
                     </select>
                   </td>
                   <td rowspan="2">
+                    <!--
                     <?php
                       include("municipality.php");
                     ?>
+                    -->
                   </td>
                   <td rowspan="2">
+                    <!--
                     <?php
                       include("province.php");
                     ?>
+                    -->
                   </td>
                   <td rowspan="2">
                     <input id="SH_Name" type="text" class="validate">
@@ -211,7 +215,9 @@
     include("footer-white.php");
   ?>
   
-  </body>
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
       // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
@@ -224,5 +230,9 @@
       selectMonths: true, // Creates a dropdown to control month
       selectYears: 15 // Creates a dropdown of 15 years to control year
     });
+    $('#add-dair-r').click(function() {
+     $('.td1').toggle('show');
+    });
   </script>
+  </body>
 </html>

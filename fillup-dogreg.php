@@ -38,43 +38,48 @@
             <table class="striped">
               <thead>
                 <tr>
-                    <th>#</th>
-                    <th>Province</th>
-                    <th>Municipality</th>
-                    <th>Barangay</th>
-                    <th>Date of Registration</th>
-                    <th>Owner</th>
-                    <th>Address</th>
-                    <th>Contact Number</th>
-                    <th>Dog's Name</th>
-                    <th>Age</th>
-                    <th>Sex</th>
-                    <th>Desexed</th>
-                    <th class="breed">Breed</th>
-                    <th>Color</th>
-                    <th>Distinguishing Mark</th>
-                    <th>Microchip Number</th>
-                    <th>Date of last Vaccination</th>
-                    <th>Dog Origin</th>
-                    <th>Remarks</th>
-                    <th><a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Add" id="add-dogreg"><i class="material-icons">add</i></a></th>
-                    <th></th>
-                    <th></th>
+                  <th>#</th>
+                  <th>Province</th>
+                  <th>Municipality</th>
+                  <th>Barangay</th>
+                  <th>Date of Registration</th>
+                  <th>Owner</th>
+                  <th>Address</th>
+                  <th>Contact Number</th>
+                  <th>Dog's Name</th>
+                  <th>Age</th>
+                  <th>Sex</th>
+                  <th>Desexed</th>
+                  <th class="breed">Breed</th>
+                  <th>Color</th>
+                  <th>Distinguishing Mark</th>
+                  <th>Microchip Number</th>
+                  <th>Date of last Vaccination</th>
+                  <th>Dog Origin</th>
+                  <th>Remarks</th>
+                  <th><a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Add" id="add-dogreg"><i class="material-icons">add</i></a></th>
+                  <th></th>
+                  <th></th>
                 </tr>
               </thead>
 
               <tbody>
                 <tr class="td1">
-                  <td rowspan="3">
+                  <td>1</td>
+                  <td rowspan="">
+                    <!--
                     <?php
-                      include("province.php");
+                      //include("province.php");
                     ?>
+                    -->
                   </td>
                   <td>45</td>
-                  <td rowspan="3">
+                  <td rowspan="">
+                    <!--
                     <?php
-                      include("municipality.php");
+                      //include("municipality.php");
                     ?>
+                    -->
                   </td>
                   <td>
                     <select>
@@ -305,6 +310,7 @@
                   <td><a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Done" onclick="Materialize.toast('Data is Added!', 4000)"><i class="material-icons">done</i></a></td>
                   <td><a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Cancel"><i class="material-icons center">clear</i></a></td>
                   <td></td>
+                </tr>
                 <?php
                   include("data-dogreg.php");
                 ?>
@@ -330,8 +336,10 @@
   <?php
     include("footer-white.php");
   ?>
-
-  </body>
+  
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
       // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
@@ -348,4 +356,5 @@
      $('.td1').toggle('show');
     });
   </script>
+  </body>
 </html>

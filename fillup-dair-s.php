@@ -98,14 +98,18 @@
                     </select>
                   </td>
                   <td rowspan="3">
+                    <!--
                     <?php
                       include("municipality.php");
                     ?>
+                    -->
                   </td>
                   <td rowspan="3">
+                    <!--
                     <?php
                       include("province.php");
                     ?>
+                    -->
                   </td>
                   <td rowspan="3">
                     <input id="SH_Name" type="text" class="validate">
@@ -220,7 +224,9 @@
     include("footer-white.php");
   ?>
   
-  </body>
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
       // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
@@ -237,4 +243,5 @@
      $('.td1').toggle('show');
     });
   </script>
+  </body>
 </html>
