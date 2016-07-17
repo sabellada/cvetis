@@ -1,8 +1,8 @@
 <div id="details-dmir-r" class="modal modal-fixed-footer">
+  <div style="border-bottom: 3px solid #F44336; margin-top: 15px; z-index: 100000;">
+    <h4 class="center">Daily Animal Inspection Report (Ruminants)</h4>
+  </div>
   <div class="modal-content">
-    <div style="border-bottom: 3px solid #F44336; margin-top: 15px; z-index: 100000;">
-      <h4 class="center">Daily Animal Inspection Report (Ruminants)</h4>
-    </div>
     <div class="form-desc">
       <img id = "form-img"class="materialboxed" src="img/dmir-r.jpg">
       <div class="form-text">

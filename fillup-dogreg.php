@@ -35,12 +35,12 @@
           <br>
           <hr>
           <div class="data-table-wrap">
-            <table class="striped">
+            <table class="striped sortable">
               <thead>
                 <tr>
                   <th>#</th>
                   <th>Province</th>
-                  <th>Municipality</th>
+                  <th>City</th>
                   <th>Barangay</th>
                   <th>Date of Registration</th>
                   <th>Owner</th>
@@ -340,6 +340,7 @@
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="sorttable.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
       // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered

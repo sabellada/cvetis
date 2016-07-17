@@ -3,18 +3,6 @@
   height: 100%;
   margin: 10px auto !important; 
 }
-.card-content{
-  height: 1300px;
-}
-.footer-copyright{
-  border-top: 2px solid #f44336; 
-}
-.row{
-  margin: 0;
-}
-table, th, td,thead, tr{
-  text-align: center;
-}
 .data-table-wrap{
   overflow-x: auto !important;
   height: 500px;

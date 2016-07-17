@@ -264,5 +264,5 @@
 $(document).ready(function(){
     $('.scrollspy').scrollSpy();
   });
-
+</script>
 </html>

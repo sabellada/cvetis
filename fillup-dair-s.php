@@ -42,7 +42,7 @@
                   <th rowspan="4">Month</th>
                   <th rowspan="4">Region</th>
                   <th rowspan="4">Province</th>
-                  <th rowspan="4">Municipality</th>
+                  <th rowspan="4">City</th>
                   <th rowspan="4">Name of Slaughterhouse</th>
                   <th rowspan="4">Type of Slaughterhouse</th>
                   <th rowspan="4">Accreditation No.</th>

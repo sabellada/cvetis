@@ -6,6 +6,13 @@ ul#stats.dropdown-content{
   width: 300px;
   min-height: 50%;
 }
+#signup.modal{
+  width: 500px;
+  height: auto;
+}
+#signup.modal-content{
+  height: auto;
+}
 </style>
 
 <div class="navbar-fixed">
@@ -74,138 +81,103 @@ ul#stats.dropdown-content{
 
   <!--Sign Up Modal-->
 <div id="signup" class="modal modal-fixed-footer">
-    <div style="border-bottom: 1px solid rgba(0, 0, 0, 0.1); margin-top: 15px; z-index: 100000;">
-      <h4 class="center">Sign Up</h4>
-    </div>
-    <div class="modal-content" style="overflow: hidden;">
-      <div class="row">
-        <div id="signUp-form" class="col s12" style="overflow-y: auto; height: 440px">
-          <form class="col s12">
-            <div class="input-field col m3">
-              <input id="dogreg-date" type="date" class="datepicker">
-              <label for="dogreg-date">Date of Registration</label>
-            </div>
-            <div class="input-field col m3">
-              <select>
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-              </select>
-              <label>Province</label>
-            </div>
-            <div class="input-field col m3">
-              <select>
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-              </select>
-              <label>Municipality</label>
-            </div>
-            <div class="input-field col m3">
-              <select>
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-              </select>
-              <label>Zone</label>
-            </div>
-            <div class="divider"></div>
-            <div class="section">
-              <h5>Owner Details</h5>
-            </div>
-            <div class="divider"></div>
-            <div class="input-field col m4">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Owner First Name</label>
-            </div>
-            <div class="input-field col m4">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Owner Last Name</label>
-            </div>
-            <div class="input-field col m4">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Contact Number</label>
-            </div>
-            <div class="input-field col m12">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Address</label>
-            </div>
+  <div style="border-bottom: 3px solid #F44336; margin-top: 15px; z-index: 100000;">
+    <h4 class="center">Sign Up</h4>
+  </div>
+  <div class="modal-content" style="overflow: hidden;">
+    <div class="row">
+      <div class="col s12" style="overflow: auto; height: 500px;">
+        <form class="col s12" method="post" action="<?=$_SERVER['PHP_SELF']?>">
+          <div class="input-field col m6">
+            <select name="region">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+            <label>Region</label>
+          </div>
+          <div class="input-field col m6">
+            <select name="province">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+            <label>Province</label>
+          </div>
+          <div class="input-field col m6">
+            <select name="City">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+            <label>City</label>
+          </div>
 
-            <div class="divider"></div>
+          <div class="input-field col m6">
+            <input id="contact_no" name="contact_no" name="contact_no" type="text" class="validate">
+            <label for="contact_no">Contact Number</label>
+          </div>
+
+          <div class="input-field col m12">
+            <input id="password" name="password" name="password" type="text" class="validate">
+            <label for="password">Password</label>
+          </div>
+
+          <div class="input-field col m12">
+            <h4>Please tick the Services offered in your office</h4>
               <div class="section">
-              <h5>Dog Details</h5>
-            </div>
-            <div class="divider"></div>
-            <div class="input-field col m4">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Name</label>
-            </div>
-            <div class="input-field col m2">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Age</label>
-            </div>
-            <div class="input-field col m3">
-              <select>
-                <option value="" disabled selected>Choose</option>
-                <option value="1">Male</option>
-                <option value="2">Female</option>
-              </select>
-              <label>Gender</label>
-            </div>
-            <div class="input-field col m3">
-              <select>
-                <option value="" disabled selected>Choose</option>
-                <option value="1">Male</option>
-                <option value="2">Female</option>
-              </select>
-              <label>Desexed</label>
-            </div>
-            <div class="input-field col m4">
-              <select>
-                <option value="" disabled selected>Choose</option>
-                <option value="1">Male</option>
-                <option value="2">Female</option>
-              </select>
-              <label>Breed</label>
-            </div>
-            <div class="input-field col m4">
-              <select>
-                <option value="" disabled selected>Choose</option>
-                <option value="1">Male</option>
-                <option value="2">Female</option>
-              </select>
-              <label>Color</label>
-            </div>
-            <div class="input-field col m4">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Distinguishing Mark</label>
-            </div>
-            <div class="input-field col m4">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Microchip Number</label>
-            </div>
-            <div class="input-field col m4">
-              <input id="last_vac" type="date" class="datepicker">
-              <label for="last_vac">Date of Last Vaccination</label>
-            </div>
-            <div class="input-field col m4">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Dog Origin</label>
-            </div>
-            <div class="input-field col s12">
-              <textarea id="textarea1" class="materialize-textarea"></textarea>
-              <label for="textarea1">Remarks</label>
-            </div>
-            <div class="modal-footer">
-              <a href="fillup-dogreg.php" class="waves-effect waves-light btn red" id="view">View Data</a>
-              <a href="stats-arv.php" class="waves-effect waves-light btn red" id="view">View Statistics</a>
-            </div>
-          </form>
-       </div>
+                <h5>Veterinary Services</h5>
+                <p>
+                  <input type="checkbox" name="dogreg" name="dogreg" value="dogreg" />
+                  <label for="dogreg">Dog Registry</label>
+                </p>
+              </div>
+              <div class="divider"></div>
 
-      </div>
+              <div class="section">
+                <h5>Livestock Services</h5>
+                <p>
+                  <input type="checkbox" name="pslr" name="pslr" value="pslr"/>
+                  <label for="pslr">Permit to Slaughter Large Ruminants</label>
+
+                  <input type="checkbox" name="cs" name="cs" value="cs" />
+                  <label for="cs">Condemnation Slip</label>
+                </p>
+              </div>
+              <div class="divider"></div>
+
+              <div class="section">
+                <h5>Meat Inspection Services</h5>
+                <p>
+                  <input type="checkbox" name="dair-r" id="dair-r" value="dair-r" />
+                  <label for="dair-r">Daily Animal Inspection Report (Ruminants)</label>
+
+                  <input type="checkbox" name="dair-s" id="dair-s" value="dair-s" />
+                  <label for="dair-s">Daily Animal Inspection Report (Ruminants)</label>
+
+                  <input type="checkbox" name="dmir-r" id="dmir-r" value="dmir-r" />
+                  <label for="dmir-r">Daily Meat Inspection Report (Ruminants)</label>
+
+                  <input type="checkbox" name="dmir-s" name="dmir-s" value="dmir-s" />
+                  <label for="dmir-s">Daily Meat Inspection Report (Ruminants)</label>
+
+                  <input type="checkbox" name="mmp-cert" name="mmp-cert" value="mmp-cert" />
+                  <label for="mmp-cert">Meat and Meat Products Inspection Certificate</label>
+
+                  <input type="checkbox" name="postmeatest" name="postmeatest" value="postmeatest" />
+                  <label for="postmeatest">Post Meat Establishment Report</label>
+                </p>
+              </div>
+            </div>
+        <div class="modal-footer">
+          <input class="waves-effect waves-light btn red" type="reset" value="Reset Form">
+          <input class="waves-effect waves-light btn red" type="submit" name="submitok" value="Submit">
+        </div>
+        </form>
+     </div>
     </div>
-  </div>   
+  </div>
+</div>   

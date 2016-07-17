@@ -4,7 +4,7 @@
     <td rowspan="3">Month</td>
     <td rowspan="3">Region</td>
     <td rowspan="3">Province</td>
-    <td rowspan="3">Municipality</td>
+    <td rowspan="3">City</td>
     <td rowspan="3">Name of Slaughterhouse</td>
     <td rowspan="3">Type of Slaughterhouse</td>
     <td rowspan="3">Accreditation No.</td>
@@ -41,7 +41,7 @@
     <td rowspan="3">Month</td>
     <td rowspan="3">Region</td>
     <td rowspan="3">Province</td>
-    <td rowspan="3">Municipality</td>
+    <td rowspan="3">City</td>
     <td rowspan="3">Name of Slaughterhouse</td>
     <td rowspan="3">Type of Slaughterhouse</td>
     <td rowspan="3">Accreditation No.</td>
@@ -78,7 +78,7 @@
     <td rowspan="3">Month</td>
     <td rowspan="3">Region</td>
     <td rowspan="3">Province</td>
-    <td rowspan="3">Municipality</td>
+    <td rowspan="3">City</td>
     <td rowspan="3">Name of Slaughterhouse</td>
     <td rowspan="3">Type of Slaughterhouse</td>
     <td rowspan="3">Accreditation No.</td>
@@ -115,7 +115,7 @@
     <td rowspan="3">Month</td>
     <td rowspan="3">Region</td>
     <td rowspan="3">Province</td>
-    <td rowspan="3">Municipality</td>
+    <td rowspan="3">City</td>
     <td rowspan="3">Name of Slaughterhouse</td>
     <td rowspan="3">Type of Slaughterhouse</td>
     <td rowspan="3">Accreditation No.</td>
@@ -152,7 +152,7 @@
     <td rowspan="3">Month</td>
     <td rowspan="3">Region</td>
     <td rowspan="3">Province</td>
-    <td rowspan="3">Municipality</td>
+    <td rowspan="3">City</td>
     <td rowspan="3">Name of Slaughterhouse</td>
     <td rowspan="3">Type of Slaughterhouse</td>
     <td rowspan="3">Accreditation No.</td>
@@ -189,7 +189,7 @@
     <td rowspan="3">Month</td>
     <td rowspan="3">Region</td>
     <td rowspan="3">Province</td>
-    <td rowspan="3">Municipality</td>
+    <td rowspan="3">City</td>
     <td rowspan="3">Name of Slaughterhouse</td>
     <td rowspan="3">Type of Slaughterhouse</td>
     <td rowspan="3">Accreditation No.</td>

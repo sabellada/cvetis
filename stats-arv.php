@@ -72,6 +72,11 @@
   ?>
 
   </body>
+  
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/jspdf.min.js"></script>
   <script type="text/javascript">
     $('.datepicker').pickadate({
       selectMonths: true, // Creates a dropdown to control month

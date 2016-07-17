@@ -13,4 +13,3 @@
 <link href="css/fillup.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 <link href="css/details.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-<!--  Scripts-->

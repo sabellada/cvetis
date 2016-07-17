@@ -1,7 +1,7 @@
 <tr>
     <td>44</td>
     <td>Province</td>
-    <td>Municipality</td>
+    <td>City</td>
     <td>Barangay</td>
     <td>May 23, 2016</td>
     <td>Ruby Santos</td>
@@ -25,7 +25,7 @@
 <tr>
     <td>44</td>
     <td>Province</td>
-    <td>Municipality</td>
+    <td>City</td>
     <td>Barangay</td>
     <td>May 23, 2016</td>
     <td>Ruby Santos</td>

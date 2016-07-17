@@ -4,7 +4,7 @@
     <td rowspan="2">Month</td>
     <td rowspan="2">Region</td>
     <td rowspan="2">Province</td>
-    <td rowspan="2">Municipality</td>
+    <td rowspan="2">City</td>
     <td rowspan="2">Name of Slaughterhouse</td>
     <td rowspan="2">Type of Slaughterhouse</td>
     <td rowspan="2">Accreditation No.</td>
@@ -64,7 +64,7 @@
     <td rowspan="2">Month</td>
     <td rowspan="2">Region</td>
     <td rowspan="2">Province</td>
-    <td rowspan="2">Municipality</td>
+    <td rowspan="2">City</td>
     <td rowspan="2">Name of Slaughterhouse</td>
     <td rowspan="2">Type of Slaughterhouse</td>
     <td rowspan="2">Accreditation No.</td>

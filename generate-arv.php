@@ -9,7 +9,7 @@
             <div class="input-field col m6">
               <!--
               <?php
-                //include("province.php");
+                include("province.php");
               ?>
               -->
               <label>Province</label>
@@ -17,7 +17,7 @@
             <div class="input-field col m6">
               <!--
               <?php
-                //include("municipality.php");
+                include("municipality.php");
               ?>
               -->
               <label>Province</label>

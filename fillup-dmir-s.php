@@ -48,7 +48,7 @@
                   <th rowspan="4">Month</th>
                   <th rowspan="4">Region</th>
                   <th rowspan="4">Province</th>
-                  <th rowspan="4">Municipality</th>
+                  <th rowspan="4">City</th>
                   <th rowspan="4">Name of Slaughterhouse</th>
                   <th rowspan="4">Type of Slaughterhouse</th>
                   <th rowspan="4">Accreditation No.</th>
@@ -246,7 +246,7 @@
                   <td rowspan="3">
                     <select>
                       <option value="" disabled selected>Choose your option</option>
-                      <option value="1">Within the Municipality</option>
+                      <option value="1">Within the City</option>
                       <option value="2">Within the province</option>
                       <option value="3">Outside the Province</option>
                     </select>                  

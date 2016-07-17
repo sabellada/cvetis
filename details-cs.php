@@ -1,8 +1,8 @@
 <div id="details-cs" class="modal modal-fixed-footer">
-  <div class="modal-content">
     <div style="border-bottom: 3px solid #F44336; margin-top: 15px; z-index: 100000;">
       <h4 class="center">Condemnation Slip</h4>
     </div>
+    <div class="modal-content">
     <div class="form-desc">
       <img id = "form-img"class="materialboxed" src="img/cs.jpg">
       <div class="form-text">
